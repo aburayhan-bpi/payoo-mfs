@@ -19,6 +19,6 @@ addMoneyBtn.addEventListener('click', function (event) {
         document.getElementById('accountBalance').innerText = newBalance;
     }
     else {
-        alert('Failed to add money. Enter your correct pin.');
+        alert('Failed to add money. Please try again later.');
     }
 })  
